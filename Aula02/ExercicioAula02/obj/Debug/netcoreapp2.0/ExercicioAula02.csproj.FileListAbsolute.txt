@@ -1,0 +1,10 @@
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/bin/Debug/netcoreapp2.0/ExercicioAula02.deps.json
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/bin/Debug/netcoreapp2.0/ExercicioAula02.runtimeconfig.json
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/bin/Debug/netcoreapp2.0/ExercicioAula02.runtimeconfig.dev.json
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/bin/Debug/netcoreapp2.0/ExercicioAula02.dll
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/bin/Debug/netcoreapp2.0/ExercicioAula02.pdb
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/obj/Debug/netcoreapp2.0/ExercicioAula02.csproj.CoreCompileInputs.cache
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/obj/Debug/netcoreapp2.0/ExercicioAula02.AssemblyInfoInputs.cache
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/obj/Debug/netcoreapp2.0/ExercicioAula02.AssemblyInfo.cs
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/obj/Debug/netcoreapp2.0/ExercicioAula02.dll
+/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/obj/Debug/netcoreapp2.0/ExercicioAula02.pdb
