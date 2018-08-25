@@ -1,0 +1,10 @@
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/bin/Debug/netcoreapp2.0/AppPeople.deps.json
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/bin/Debug/netcoreapp2.0/AppPeople.runtimeconfig.json
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/bin/Debug/netcoreapp2.0/AppPeople.runtimeconfig.dev.json
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/bin/Debug/netcoreapp2.0/AppPeople.dll
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/bin/Debug/netcoreapp2.0/AppPeople.pdb
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/obj/Debug/netcoreapp2.0/AppPeople.csproj.CoreCompileInputs.cache
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/obj/Debug/netcoreapp2.0/AppPeople.AssemblyInfoInputs.cache
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/obj/Debug/netcoreapp2.0/AppPeople.AssemblyInfo.cs
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/obj/Debug/netcoreapp2.0/AppPeople.dll
+/Users/giltobarcella/Desktop/LPC/Aula04/AppPeople/obj/Debug/netcoreapp2.0/AppPeople.pdb
