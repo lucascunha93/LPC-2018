@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/giltobarcella/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\olive\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/ExercicioAula02.csproj",
+      "projectUniqueName": "d:\\OneDrive - Universidade Luterana do Brasil\\STADS\\Quinto semestre 02.2018\\Linguagem de programação comercial - Cássio Costa\\LPC-2018\\Aula02\\ExercicioAula02\\ExercicioAula02.csproj",
       "projectName": "ExercicioAula02",
-      "projectPath": "/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/ExercicioAula02.csproj",
-      "packagesPath": "/Users/giltobarcella/.nuget/packages/",
-      "outputPath": "/Users/giltobarcella/Desktop/LPC/Aula02/ExercicioAula02/obj/",
+      "projectPath": "d:\\OneDrive - Universidade Luterana do Brasil\\STADS\\Quinto semestre 02.2018\\Linguagem de programação comercial - Cássio Costa\\LPC-2018\\Aula02\\ExercicioAula02\\ExercicioAula02.csproj",
+      "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
+      "outputPath": "d:\\OneDrive - Universidade Luterana do Brasil\\STADS\\Quinto semestre 02.2018\\Linguagem de programação comercial - Cássio Costa\\LPC-2018\\Aula02\\ExercicioAula02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/giltobarcella/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

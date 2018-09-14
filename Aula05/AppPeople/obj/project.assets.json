@@ -13122,11 +13122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\olive\\Desktop\\LPC-2018\\Aula05-EF\\AppPeople\\AppPeople.csproj",
+      "projectUniqueName": "d:\\OneDrive - Universidade Luterana do Brasil\\STADS\\Quinto semestre 02.2018\\Linguagem de programação comercial - Cássio Costa\\LPC-2018\\Aula05\\AppPeople\\AppPeople.csproj",
       "projectName": "AppPeople",
-      "projectPath": "c:\\Users\\olive\\Desktop\\LPC-2018\\Aula05-EF\\AppPeople\\AppPeople.csproj",
+      "projectPath": "d:\\OneDrive - Universidade Luterana do Brasil\\STADS\\Quinto semestre 02.2018\\Linguagem de programação comercial - Cássio Costa\\LPC-2018\\Aula05\\AppPeople\\AppPeople.csproj",
       "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\olive\\Desktop\\LPC-2018\\Aula05-EF\\AppPeople\\obj\\",
+      "outputPath": "d:\\OneDrive - Universidade Luterana do Brasil\\STADS\\Quinto semestre 02.2018\\Linguagem de programação comercial - Cássio Costa\\LPC-2018\\Aula05\\AppPeople\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

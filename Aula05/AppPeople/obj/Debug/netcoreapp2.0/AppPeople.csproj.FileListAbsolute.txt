@@ -29,3 +29,14 @@ c:\Users\olive\Desktop\LPC-2018\Aula05-EF\AppPeople\obj\Debug\netcoreapp2.0\AppP
 c:\Users\olive\Desktop\LPC-2018\Aula05-EF\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.AssemblyInfo.cs
 c:\Users\olive\Desktop\LPC-2018\Aula05-EF\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.dll
 c:\Users\olive\Desktop\LPC-2018\Aula05-EF\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.pdb
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\bin\Debug\netcoreapp2.0\AppPeople.deps.json
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\bin\Debug\netcoreapp2.0\AppPeople.runtimeconfig.json
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\bin\Debug\netcoreapp2.0\AppPeople.runtimeconfig.dev.json
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\bin\Debug\netcoreapp2.0\AppPeople.dll
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\bin\Debug\netcoreapp2.0\AppPeople.pdb
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.csprojAssemblyReference.cache
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.csproj.CoreCompileInputs.cache
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.AssemblyInfoInputs.cache
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.AssemblyInfo.cs
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.dll
+d:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula05\AppPeople\obj\Debug\netcoreapp2.0\AppPeople.pdb

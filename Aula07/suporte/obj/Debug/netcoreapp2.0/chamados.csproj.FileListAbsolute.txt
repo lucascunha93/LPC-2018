@@ -1,0 +1,10 @@
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/bin/Debug/netcoreapp2.0/chamados.deps.json
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/bin/Debug/netcoreapp2.0/chamados.runtimeconfig.json
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/bin/Debug/netcoreapp2.0/chamados.runtimeconfig.dev.json
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/bin/Debug/netcoreapp2.0/chamados.dll
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/bin/Debug/netcoreapp2.0/chamados.pdb
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.csproj.CoreCompileInputs.cache
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.AssemblyInfoInputs.cache
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.AssemblyInfo.cs
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.dll
+/Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.pdb

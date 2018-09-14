@@ -1,0 +1,62 @@
+@model chamados.Models.Chamado
+
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+
+        <br>
+
+        <div class="form-group">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" name="id"/>
+        </div>
+
+        <div class="form-group">
+            <label>Número Chamado</label>
+            <input  class="form-control"
+                    type="text" name="numChamado"/>
+        </div>
+
+        <div class="form-group">
+            <label>Numero Solicitante</label>
+            <input  class="form-control"
+                    type="text" name="numSolicitante"/>
+        </div>
+
+        <div class="form-group">
+            <label>Descricao do Problema</label>
+            <input  class="form-control"
+                    type="text" name="descricaoProblema"/>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input  class="form-control"
+                    type="text" name="email"/>
+        </div>
+
+        <div class="form-group">
+            <label>Inicio</label>
+            <input  class="form-control"
+                    type="datetime-local" 
+                    name="horaInicio"/>
+        </div>
+
+        <div class="form-group">
+            <label>Fim</label>
+            <input  class="form-control"
+                    type="datetime-local" 
+                    name="horaFim"/>
+        </div>
+
+        <div class="form-group">
+            <label>Telefone</label>
+            <input  class="form-control"
+                    type="text" name="telefone"/>
+        </div>
+
+        <input  class="btn btn-primary" 
+                type="submit" value="Salvar"/>
+
+    </form>
+</div>
