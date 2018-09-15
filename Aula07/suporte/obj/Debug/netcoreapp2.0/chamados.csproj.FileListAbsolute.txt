@@ -8,3 +8,14 @@
 /Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.AssemblyInfo.cs
 /Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.dll
 /Users/giltobarcella/Desktop/LPC/Aula07-Projeto/chamados/obj/Debug/netcoreapp2.0/chamados.pdb
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\bin\Debug\netcoreapp2.0\chamados.deps.json
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\bin\Debug\netcoreapp2.0\chamados.runtimeconfig.json
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\bin\Debug\netcoreapp2.0\chamados.runtimeconfig.dev.json
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\bin\Debug\netcoreapp2.0\chamados.dll
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\bin\Debug\netcoreapp2.0\chamados.pdb
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\obj\Debug\netcoreapp2.0\chamados.csprojAssemblyReference.cache
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\obj\Debug\netcoreapp2.0\chamados.csproj.CoreCompileInputs.cache
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\obj\Debug\netcoreapp2.0\chamados.AssemblyInfoInputs.cache
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\obj\Debug\netcoreapp2.0\chamados.AssemblyInfo.cs
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\obj\Debug\netcoreapp2.0\chamados.dll
+D:\OneDrive - Universidade Luterana do Brasil\STADS\Quinto semestre 02.2018\Linguagem de programação comercial - Cássio Costa\LPC-2018\Aula07\suporte\obj\Debug\netcoreapp2.0\chamados.pdb
