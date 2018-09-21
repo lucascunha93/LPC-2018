@@ -1,0 +1,34 @@
+@model AppPeople.Models.Person
+
+<div class="form-horizontal">
+    <form action="Edit" method="Post">
+
+        <div class="form-group">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="id"
+                    value="@Model.id" />
+        </div>
+
+        <div class="form-group">
+            <label>Nome</label>
+            <input  class="form-control"
+                    type="text"
+                    name="name"
+                    value="@Model.name" />
+        </div>
+
+        <div class="form-group">
+            <label>Endereço</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="address"
+                    value="@Model.address"/>
+        </div>
+
+        <input  class="btn btn-primary" 
+                type="submit" value="Salvar"/>
+
+    </form>
+</div>

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div>
+        <h3>Singleton</h3>        
+        @foreach (var x in ViewBag.Singletons)
+        {
+            <li>@x</li>
+        }
+    </div>
+
+    <div>
+        <h3>scoped: </h3>
+        @foreach (var x in ViewBag.Scopeds)
+        {
+            <li><@x</li>
+        }
+    </div>
+
+
+    <div>
+        <h3>Transients</h3>
+        @foreach (var x in ViewBag.Transients)
+        {
+            <li>@x</li>
+        }
+    </div>
+
+

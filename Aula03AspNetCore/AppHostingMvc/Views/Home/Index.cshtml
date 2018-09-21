@@ -1,0 +1,22 @@
+﻿@model IEnumerable<AppHostingMvc.Models.Gerente>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+        </tr>
+
+        @foreach(var g in Model)
+        {
+           <tr>
+                <th>@g.id</th>
+                <th>@g.nome</th>
+           </tr>
+        }
+
+    </table>
+</div>
