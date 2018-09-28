@@ -1,0 +1,33 @@
+@model chamados.Models.Chamado
+
+<center><h1>Cadastro de chamados</h1></center>
+<div class="form-horizontal">
+    <form action="Create" method="Post">
+
+        <br>
+
+        <div class="form-group">
+            <label>Id</label>
+            <input  class="form-control" type="text" name="id" required=""/>
+        </div>
+
+        <div class="form-group">
+            <label>Descricao do Problema</label>
+            <input  class="form-control" type="text" name="descricaoProblema" required=""/>
+        </div>
+
+        <div class="form-group">
+            <label>Inicio</label>
+            <input  class="form-control" type="datetime-local" name="horaInicio"  required=""/>
+        </div>
+
+        <div class="form-group">
+            <label>Fim</label>
+            <input  class="form-control" type="datetime-local" name="horaFim" required=""/>
+        </div>
+
+        <input  class="btn btn-success" 
+                type="submit" value="Salvar"/>
+
+    </form>
+</div>

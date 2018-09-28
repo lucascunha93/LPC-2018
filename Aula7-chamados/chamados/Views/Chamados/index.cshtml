@@ -1,0 +1,39 @@
+@model IEnumerable<chamados.Models.Chamado>
+    <div style="width:80%; margin:0 auto; padding: 30px">
+    <a href="Chamados/Create"  class="btn btn-success" style="width:50%; margin:0 auto" >Novo Chamado</a>
+    <a href="Chamados/ListaOrder" class="btn btn-info" style="width:49%; margin:0 auto">Mais Recentes</a>
+    </div>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Descricao</th>
+                    <th>Email</th>
+                    <th>Inicio</th>
+                    <th>Fim</th>
+                    <th>Numero Chamado</th>
+                    <th>Numero Solicitante</th>
+                    <th>Telefone</th>
+                    <th>Duracao</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            @foreach (var item in Model) {
+
+            <tr>
+                <td>@item.descricaoProblema</td>
+                <td>@item.email</td>
+                <td>@item.horaInicio</td>
+                <td>@item.horaFim</td>
+                <td>@item.numChamado</td>
+                <td>@item.numSolicitante</td>
+                <td>@item.telefone</td>
+                <td>@item.duracao</td>
+                <td><a class="btn btn-danger" href="Chamados/Delete/@item.id">Deletar</a></td>
+                <td><a class="btn btn-primary" href="Chamados/Edit/@item.id">Editar</a></td>
+            </tr>
+            }
+        </table>
+    </div>

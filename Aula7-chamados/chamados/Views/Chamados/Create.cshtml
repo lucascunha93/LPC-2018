@@ -1,0 +1,66 @@
+@model chamados.Models.Chamado
+
+
+
+<div style="width: 80%; margin:0 auto;">
+    <form action="Create" method="Post">
+
+        <br>
+
+        <div class="col-md-1">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" name="id"/>
+        </div>
+
+        <div class="col-md-5">
+            <label>Número Chamado</label>
+            <input  class="form-control"
+                    type="text" name="numChamado"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Numero Solicitante</label>
+            <input  class="form-control"
+                    type="text" name="numSolicitante"/>
+        </div>
+
+        <div class="col-md-12">
+            <label>Descricao do Problema</label>
+            <input  class="form-control"
+                    type="text" name="descricaoProblema"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Email</label>
+            <input  class="form-control"
+                    type="text" name="email"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Telefone</label>
+            <input  class="form-control"
+                    type="text" name="telefone"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Inicio</label>
+            <input  class="form-control"
+                    type="datetime-local" 
+                    name="horaInicio"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Fim</label>
+            <input  class="form-control"
+                    type="datetime-local" 
+                    name="horaFim"/>
+        </div>
+
+    
+            <div style="width:100%; padding-top:300px; margin: 0 auto" >
+                <input  class="btn btn-success" style="width: 60%;" type="submit" value="Salvar"/>
+            </div>
+        
+    </form>
+</div>

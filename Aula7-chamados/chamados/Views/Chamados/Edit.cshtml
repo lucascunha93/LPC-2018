@@ -1,0 +1,75 @@
+@model chamados.Models.Chamado
+
+<div style="widows: 80%; margin: 0 auto">
+    <form action="Edit" method="Post">
+        <br>
+        <div class="col-md-4">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="id"
+                    value="@Model.id"
+                    readonly/>
+        </div>
+
+        <div class="col-md-4">
+            <label>Número Chamado</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="numChamado"
+                    value="@Model.numChamado"/>
+        </div>
+
+        <div class="col-md-4">
+            <label>Numero Solicitante</label>
+            <input  class="form-control"
+                    type="text"
+                    name="numSolicitante"
+                    value="@Model.numSolicitante"/>
+        </div>
+
+        <div class="col-md-12">
+            <label>Descricao do Problema</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="descricaoProblema"
+                    value="@Model.descricaoProblema"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Email</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="email"
+                    value="@Model.email"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Inicio</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="horaInicio"
+                    value="@Model.horaInicio"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Fim</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="horaFim"
+                    value="@Model.horaFim"/>
+        </div>
+
+        <div class="col-md-6">
+            <label>Telefone</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="telefone"
+                    value="@Model.telefone"/>
+        </div>
+
+        <div style="width:100%; padding-top:280px; margin: 0 auto" >
+        <input  class="btn btn-primary" type="submit" style="width: 60%; margin:0 auto" value="Editar"/>
+        </div>
+    </form>
+</div>

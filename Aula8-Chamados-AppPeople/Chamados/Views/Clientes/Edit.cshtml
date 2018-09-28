@@ -1,0 +1,77 @@
+@model chamados.Models.Chamado
+<center><h1>Edição de chamados</h1></center>
+<div class="form-horizontal">
+    <form action="Edit" method="Post">
+
+        <br>
+
+        <div class="form-group">
+            <label>Id</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="id"
+                    value="@model.id"
+                    readonly/>
+        </div>
+
+        <div class="form-group">
+            <label>Número Chamado</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="numChamado"
+                    value="@model.numChamado"/>
+        </div>
+
+        <div class="form-group">
+            <label>Numero Solicitante</label>
+            <input  class="form-control"
+                    type="text"
+                    name="numSolicitante"
+                    value="@model.numSolicitante"/>
+        </div>
+
+        <div class="form-group">
+            <label>Descricao do Problema</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="descricaoProblema"
+                    value="@model.descricaoProblema"/>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="email"
+                    value="@model.email"/>
+        </div>
+
+        <div class="form-group">
+            <label>Inicio</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="horaInicio"
+                    value="@model.horaInicio"/>
+        </div>
+
+        <div class="form-group">
+            <label>Fim</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="horaFim"
+                    value="@model.horaFim"/>
+        </div>
+
+        <div class="form-group">
+            <label>Telefone</label>
+            <input  class="form-control"
+                    type="text" 
+                    name="telefone"
+                    value="@model.telefone"/>
+        </div>
+
+        <input  class="btn btn-warning" 
+                type="submit" value="Editar"/>
+
+    </form>
+</div>
