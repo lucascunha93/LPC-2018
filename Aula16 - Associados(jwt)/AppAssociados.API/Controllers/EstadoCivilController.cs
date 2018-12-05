@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppAssociados.API.Controllers
@@ -14,6 +15,7 @@ namespace AppAssociados.API.Controllers
             this.repository = repository;
         }
 
+        [Authorize]
         [HttpGet]
         public IEnumerable<EstadoCivil> Get()
         {
@@ -29,8 +31,21 @@ namespace AppAssociados.API.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]EstadoCivil estadoCivil)
         {
-            this.repository.Create(estadoCivil);
-            return Ok(estadoCivil);
+            if(ModelState.IsValid) {
+                this.repository.Create(estadoCivil);
+                return Ok(estadoCivil);
+            } else {
+                var errors = new List<string>();
+                foreach(var state in ModelState) {
+                    foreach(var error in state.Value.Errors) {
+                        errors.Add(error.ErrorMessage);
+                    }
+                }
+
+                return BadRequest(new {
+                    message = errors
+                });
+            }
         }
 
         [HttpPut]
