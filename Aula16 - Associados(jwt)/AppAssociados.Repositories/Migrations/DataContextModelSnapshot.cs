@@ -95,6 +95,22 @@ namespace AppAssociados.Repositories.Migrations
                     b.ToTable("Parentesco");
                 });
 
+            modelBuilder.Entity("AppAssociados.Domain.Usuario", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("nome");
+
+                    b.Property<string>("senha");
+
+                    b.Property<string>("usuario");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Usuario");
+                });
+
             modelBuilder.Entity("AppAssociados.Domain.Associado", b =>
                 {
                     b.HasOne("AppAssociados.Domain.EstadoCivil", "estadoCivil")
