@@ -6,6 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using ToDoList.API.DTOs;
 
 namespace AppAssociados.API.Controllers
 {
@@ -20,9 +21,21 @@ namespace AppAssociados.API.Controllers
 
         [Authorize]
         [HttpGet]
-        public IEnumerable<Usuario> Get()
+        public IEnumerable<UserDTO> Get()
         {
-            return this.repository.GetAll();
+            var users = this.repository.GetAll();
+            var usersDTO = new List<UserDTO>();
+
+            users.ForEach(usuario => {
+                usersDTO.Add(
+                    new UserDTO{
+                        id = usuario.id, 
+                        name = usuario.usuario
+                    }
+                );
+            });
+
+            return usersDTO;
         }
 
         [HttpGet("{id}")]

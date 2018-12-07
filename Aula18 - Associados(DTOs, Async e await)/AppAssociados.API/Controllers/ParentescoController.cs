@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using ToDoList.API.DTOs;
 
 namespace AppAssociados.API.Controllers
 {
@@ -15,9 +16,21 @@ namespace AppAssociados.API.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Parentesco> Get()
+        public IEnumerable<ParentescoDTO> Get()
         {
-            return this.repository.GetAll();
+            var users = this.repository.GetAll();
+            var usersDTO = new List<ParentescoDTO>();
+
+            users.ForEach(parentesco => {
+                usersDTO.Add(
+                    new ParentescoDTO{
+                        id = parentesco.id, 
+                        name = parentesco.descricao
+                    }
+                );
+            });
+
+            return usersDTO;
         }
 
         [HttpGet("{id}")]
