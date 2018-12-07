@@ -18,19 +18,20 @@ namespace AppAssociados.API.Controllers
         [HttpGet]
         public IEnumerable<ParentescoDTO> Get()
         {
-            var users = this.repository.GetAll();
-            var usersDTO = new List<ParentescoDTO>();
+            var parentescos = this.repository.GetAll();
+            var parentescosDTO = new List<ParentescoDTO>();
 
-            users.ForEach(parentesco => {
-                usersDTO.Add(
+            parentescos.ForEach(parentesco => {
+                parentescosDTO.Add(
                     new ParentescoDTO{
                         id = parentesco.id, 
+        
                         name = parentesco.descricao
                     }
                 );
             });
 
-            return usersDTO;
+            return parentescosDTO;
         }
 
         [HttpGet("{id}")]
