@@ -6,8 +6,8 @@ namespace AppAssociados.Domain
     {
         public int id { get; set; }
 
-        [Required(ErrorMessage="Descrição obrigatória!", AllowEmptyStrings=false)]
-        [StringLength(20, MinimumLength=5, ErrorMessage="Descrição deve ter no mínimo 5 caracteres e no máximo 20 caracteres!")]
+        [Required(ErrorMessage="Estado Civil Obrigatorio!",AllowEmptyStrings=false)]
+
         public string descricao { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace AppAssociados.Repositories.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
+                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("AppAssociados.Domain.Associado", b =>
@@ -99,8 +99,6 @@ namespace AppAssociados.Repositories.Migrations
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<string>("nome");
 
                     b.Property<string>("senha");
 

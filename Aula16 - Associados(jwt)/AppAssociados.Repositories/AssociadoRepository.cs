@@ -19,11 +19,7 @@ namespace AppAssociados.Repositories
         public void Create(Associado obj)
         {
             obj.estadoCivil = context.EstadoCivil.Find(obj.estadoCivil.id);
-            context.Entry(obj).State = EntityState.Added;
-            foreach(var item in obj.dependentes) {
-                context.Entry(item).State = EntityState.Added;
-            }
-            // context.Associado.Add(obj);
+            context.Associado.Add(obj);
             context.SaveChanges();
         }
 

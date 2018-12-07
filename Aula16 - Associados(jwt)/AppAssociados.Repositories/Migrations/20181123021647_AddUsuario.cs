@@ -13,7 +13,6 @@ namespace AppAssociados.Repositories.Migrations
                 {
                     id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    nome = table.Column<string>(nullable: true),
                     usuario = table.Column<string>(nullable: true),
                     senha = table.Column<string>(nullable: true)
                 },

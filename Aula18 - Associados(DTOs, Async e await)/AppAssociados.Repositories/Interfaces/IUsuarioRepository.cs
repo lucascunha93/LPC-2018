@@ -4,6 +4,6 @@ namespace AppAssociados.Repositories.Interfaces
 {
     public interface IUsuarioRepository : IRepositoryBase<Usuario>
     {
-         Usuario AuthUser(Usuario user);
+          Usuario AuthUser(Usuario user);
     }
 }

@@ -8,6 +8,7 @@ namespace AppAssociados.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
     {
+        
         private DataContext context;
 
         public UsuarioRepository(DataContext context)
@@ -47,7 +48,7 @@ namespace AppAssociados.Repositories
         {
             return context
                 .Usuario
-                .SingleOrDefault(i => i.usuario == user.usuario && 
+                .SingleOrDefault(i => i.usuario == user.usuario &&
                                         i.senha == user.senha);
         }
     }

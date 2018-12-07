@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppAssociados.API.Controllers
@@ -15,7 +14,6 @@ namespace AppAssociados.API.Controllers
             this.repository = repository;
         }
 
-        [Authorize]
         [HttpGet]
         public IEnumerable<Associado> Get()
         {
@@ -32,7 +30,7 @@ namespace AppAssociados.API.Controllers
         public IActionResult Post([FromBody]Associado associado)
         {
             this.repository.Create(associado);
-            return Ok();
+            return Ok(associado);
         }
 
         [HttpPut]
