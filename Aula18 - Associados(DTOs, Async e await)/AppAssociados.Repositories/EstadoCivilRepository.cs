@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -42,6 +43,14 @@ namespace AppAssociados.Repositories
         {
             context.Entry(obj).State = EntityState.Modified;
             context.SaveChanges();
+        }
+          public Task<List<EstadoCivil>> GetAllAsync()
+        {
+            return context.EstadoCivil.ToListAsync();
+        }
+          public Task<EstadoCivil> GetByIdAsync(int id)
+        {
+            return context.EstadoCivil.SingleOrDefaultAsync(x => x.id == id);
         }
     }
 }

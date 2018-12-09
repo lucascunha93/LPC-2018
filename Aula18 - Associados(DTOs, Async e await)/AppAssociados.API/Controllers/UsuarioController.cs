@@ -12,10 +12,11 @@ namespace AppAssociados.API.Controllers
 {
     [Route("api/[controller]")]
     public class UsuarioController : Controller
-    {   
-         private readonly IUsuarioRepository repository;
+    {
+        private readonly IUsuarioRepository repository;
 
-        public UsuarioController(IUsuarioRepository repository) {
+        public UsuarioController(IUsuarioRepository repository)
+        {
             this.repository = repository;
         }
 
@@ -25,16 +26,16 @@ namespace AppAssociados.API.Controllers
         {
             var users = this.repository.GetAll();
             var usersDTO = new List<UserDTO>();
-
-            users.ForEach(usuario => {
+            users.ForEach(usuario =>
+            {
                 usersDTO.Add(
-                    new UserDTO{
-                        id = usuario.id, 
-                        name = usuario.usuario
-                    }
-                );
+                new UserDTO
+                {
+                    id = usuario.id,
+                    name = usuario.usuario
+                }
+            );
             });
-
             return usersDTO;
         }
 
@@ -44,62 +45,65 @@ namespace AppAssociados.API.Controllers
             return this.repository.GetById(id);
         }
 
-          [Authorize]
-           [HttpPost]
-        public IActionResult Post([FromBody]Usuario item)
-            {
-        if (ModelState.IsValid)
+        [HttpPost]
+            public IActionResult Post([FromBody]Usuario item)
         {
+            if (ModelState.IsValid)
+            {
                 this.repository.Create(item);
                 return Ok(item);
-        }
-        else
-        {		
-            var errors = new List<string>();
-            foreach (var state in ModelState)
+            }
+            else
             {
-                foreach (var error in state.Value.Errors)
+                var errors = new List<string>();
+                foreach (var state in ModelState)
                 {
-                    errors.Add(error.ErrorMessage);
+                    foreach (var error in state.Value.Errors)
+                    {
+                        errors.Add(error.ErrorMessage);
+                    }
                 }
-            }
 
-            return BadRequest(new {
-                message = errors
-            });
-        }
-    }
-        
-            [HttpPut]
-            public IActionResult Put([FromBody]Usuario usuario)
-            {
-                this.repository.Update(usuario);
-                return Ok(usuario);
-            }
-
-            [HttpDelete("{id}")]
-            public IActionResult Delete(int id)
-            {
-                this.repository.Delete(id);
-                return Ok(new {
-                    message = "Deletado com sucesso!"
+                return BadRequest(new
+                {
+                    message = errors
                 });
             }
-        
-         [HttpPost("authenticate")]
-         public IActionResult Authentication ([FromBody]Usuario user)
-         {
-             var usuario = this.repository.AuthUser(user);
+        }
 
-             if (usuario == null)
-                return BadRequest (new{
+        [HttpPut]
+        public IActionResult Put([FromBody]Usuario usuario)
+        {
+            this.repository.Update(usuario);
+            return Ok(usuario);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            this.repository.Delete(id);
+            return Ok(new
+            {
+                message = "Deletado com sucesso!"
+            });
+        }
+
+        [HttpPost("authenticate")]
+        public IActionResult Authentication([FromBody]Usuario user)
+        {
+            var usuario = this.repository.AuthUser(user);
+
+            if (usuario == null)
+                return BadRequest(new
+                {
                     message = "Usuário Incorreto!"
                 }
                 );
-            return Ok(new{
+            return Ok(new
+            {
                 token = BuildToken()
             });
-         }
+        }
         public string BuildToken()
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("TokenLoginCunha2018"));

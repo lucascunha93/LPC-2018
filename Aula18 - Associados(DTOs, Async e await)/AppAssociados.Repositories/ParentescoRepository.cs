@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -41,6 +42,15 @@ namespace AppAssociados.Repositories
         {
             context.Entry(obj).State = EntityState.Modified;
             context.SaveChanges();
+        }
+
+        public Task<List<Parentesco>> GetAllAsync()
+        {
+            return context.Parentesco.ToListAsync();
+        }
+          public Task<Parentesco> GetByIdAsync(int id)
+        {
+            return context.Parentesco.SingleOrDefaultAsync(x => x.id == id);
         }
     }
 }

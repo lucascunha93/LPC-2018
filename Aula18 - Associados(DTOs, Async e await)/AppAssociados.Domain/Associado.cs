@@ -8,7 +8,7 @@ namespace AppAssociados.Domain
         public int id { get; set; }
         public string nome { get; set; }
         public string cpf { get; set; }
-        public DateTime dataCadastro { get; set; }
+        public DateTime? dataCadastro { get; set; }
         public string ruaEndereco { get; set; }
         public int numeroEndereco { get; set; }
         public string cidade { get; set; }

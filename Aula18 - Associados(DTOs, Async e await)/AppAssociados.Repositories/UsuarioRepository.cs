@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -51,5 +52,15 @@ namespace AppAssociados.Repositories
                 .SingleOrDefault(i => i.usuario == user.usuario &&
                                         i.senha == user.senha);
         }
+
+        public Task<List<Usuario>> GetAllAsync()
+        {
+            return context.Usuario.ToListAsync();
+        }
+          public Task<Usuario> GetByIdAsync(int id)
+        {
+            return context.Usuario.SingleOrDefaultAsync(x => x.id == id);
+        }
+
     }
 }

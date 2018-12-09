@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AppAssociados.Domain;
 using AppAssociados.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -34,9 +35,19 @@ namespace AppAssociados.Repositories
             return context.Dependente.Include(a => a.associado).Include(p => p.parentesco).ToList();
         }
 
+        public Task<List<Dependente>> GetAllAsync()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public Dependente GetById(int id)
         {
             return context.Dependente.Include(a => a.associado).Include(p => p.parentesco).SingleOrDefault(x => x.id == id);
+        }
+
+        public Task<Dependente> GetByIdAsync(int id)
+        {
+            throw new System.NotImplementedException();
         }
 
         public void Update(Dependente obj)
@@ -46,5 +57,7 @@ namespace AppAssociados.Repositories
             context.Entry(obj).State = EntityState.Modified;
             context.SaveChanges();
         }
+
+        
     }
 }
